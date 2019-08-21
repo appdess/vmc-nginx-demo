@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vmc-nginx
+spec:
+  selector:
+    matchLabels:
+      run: vmc-nginx
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: vmc-nginx
+    spec:
+      containers:
+      - name: my-nginx
+        image: adess/nginx-vmc
+        ports:
+        - containerPort: 80
+
