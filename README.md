@@ -35,4 +35,5 @@ First step is to clone the github repo to your machine from where you´re going 
     <IMG SRC="vmc.gif">
     </BODY>
 
+### You can show this from a Browser Window as well
 ![webserver-image](https://raw.githubusercontent.com/appdess/vmc-nginx-demo/master/nginx.png)
